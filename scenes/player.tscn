@@ -22,7 +22,7 @@ motion/sync_to_physics = true
 script = ExtResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-scale = Vector2( 0.2, 0.2 )
+scale = Vector2( 0.1, 0.1 )
 frames = SubResource( 1 )
 animation = "Run"
 frame = 2

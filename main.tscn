@@ -1,14 +1,27 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://scenes/background.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/spawner.tscn" type="PackedScene" id=2]
 [ext_resource path="res://scenes/player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Sprites/background2.png" type="Texture" id=4]
 [ext_resource path="res://buildings/b3.tscn" type="PackedScene" id=5]
 [ext_resource path="res://buildings/b2.tscn" type="PackedScene" id=6]
 [ext_resource path="res://buildings/b4.tscn" type="PackedScene" id=7]
 [ext_resource path="res://buildings/b1.tscn" type="PackedScene" id=8]
 
 [node name="Main" type="Node2D"]
+
+[node name="background2" type="Sprite" parent="."]
+position = Vector2( 18, 9.25679 )
+scale = Vector2( 0.79211, 0.79211 )
+texture = ExtResource( 4 )
+offset = Vector2( -7.14462, 2.56315 )
+
+[node name="background3" type="Sprite" parent="."]
+position = Vector2( 40.2027, 14.1214 )
+scale = Vector2( 0.79211, 0.79211 )
+texture = ExtResource( 4 )
+offset = Vector2( -7.14462, 2.56315 )
 
 [node name="Background" parent="." instance=ExtResource( 1 )]
 
