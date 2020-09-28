@@ -1,9 +1,9 @@
 extends StaticBody2D
 
 
-export var  speed : int = 500
+export var  speed : int = 1
 
 
 func _physics_process(delta : float) -> void:
-	position.x -= 1 * delta
+	position.x -= speed * delta
 
