@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cyberpunk background buildings.png-045a0d86b8549e27f07102ed94588cb7.stex"
+path="res://.import/background1.png-4a92155ab99d35abfd1932b8ed69a6ca.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/cyberpunk background buildings.png"
-dest_files=[ "res://.import/cyberpunk background buildings.png-045a0d86b8549e27f07102ed94588cb7.stex" ]
+source_file="res://Sprites/background1.png"
+dest_files=[ "res://.import/background1.png-4a92155ab99d35abfd1932b8ed69a6ca.stex" ]
 
 [params]
 
