@@ -4,9 +4,10 @@
 [ext_resource path="res://scenes/buildings.tscn" type="PackedScene" id=2]
 
 [node name="B1" instance=ExtResource( 2 )]
-linear_velocity = Vector2( -5, 0 )
-linear_damp = -1.0
 
 [node name="Sprite" parent="." index="0"]
 texture = ExtResource( 1 )
 offset = Vector2( 0, -5.5 )
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2( 0, -5 )

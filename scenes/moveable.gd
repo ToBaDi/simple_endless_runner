@@ -1,9 +1,9 @@
-extends KinematicBody2D
+extends StaticBody2D
 
 
 export var  speed : int = 500
 
 
 func _physics_process(delta : float) -> void:
-	move_and_slide(Vector2.LEFT * delta * speed)
+	position.x -= 1 * delta
 

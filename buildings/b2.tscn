@@ -4,9 +4,11 @@
 [ext_resource path="res://buildings/b2.tres" type="Texture" id=2]
 
 [node name="B2" instance=ExtResource( 1 )]
-linear_velocity = Vector2( -5, 0 )
-linear_damp = -1.0
+collision/safe_margin = 0.001
 
 [node name="Sprite" parent="." index="0"]
 texture = ExtResource( 2 )
 offset = Vector2( 0, -5.5 )
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2( 0, -5 )
