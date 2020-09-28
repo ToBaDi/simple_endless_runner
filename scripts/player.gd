@@ -17,7 +17,11 @@ func _physics_process(delta : float) -> void:
 	move_and_slide(velocity*delta, Vector2.UP)
 	if is_on_floor():
 		velocity = Vector2.ZERO
-	
+	if is_on_wall():
+		var blood : AnimatedSprite = load("res://blood/blood.tscn").instance()
+		get_parent().add_child(blood)
+		blood.play()
+		blood.global_position = global_position
 
 
 func _input(event : InputEvent) -> void:
