@@ -4,8 +4,8 @@ extends KinematicBody2D
 class_name Player
 
 
-export var jump_velocity : float = 1500.0
-export var gravity_scale : float = 20.0
+export var jump_velocity : float = 1000.0
+export var gravity_scale : float = 50.0
 
 var velocity : Vector2 = Vector2.ZERO
 

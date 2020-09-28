@@ -16,7 +16,7 @@
 obstacles = [ ExtResource( 8 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ) ]
 
 [node name="Player" parent="." instance=ExtResource( 3 )]
-position = Vector2( 5, -23 )
+position = Vector2( 4.26728, 8.71627 )
 motion/sync_to_physics = false
 
 [node name="B1" parent="." instance=ExtResource( 8 )]

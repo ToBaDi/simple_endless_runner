@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://buildings/b1.tres" type="Texture" id=1]
 [ext_resource path="res://scenes/buildings.tscn" type="PackedScene" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 2.542, 5 )
 
 [node name="B1" instance=ExtResource( 2 )]
 
@@ -10,4 +13,5 @@ texture = ExtResource( 1 )
 offset = Vector2( 0, -5.5 )
 
 [node name="CollisionShape2D" parent="." index="1"]
-position = Vector2( 0, -5 )
+position = Vector2( 1, -4 )
+shape = SubResource( 1 )
